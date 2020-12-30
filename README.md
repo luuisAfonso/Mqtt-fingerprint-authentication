@@ -1,4 +1,6 @@
-# Mqtt-fingerprint-authentication
+# Welcome to one of my firsts IoT projects!
+
+Wish me luck!
 
 ## To make things clearer
 
