@@ -1,0 +1,9 @@
+hivemq-ce/bin
+hivemq-ce/extensions
+hivemq-ce/log
+hivemq-ce/third-party-licenses
+hivemq-ce/data
+hivemq-ce/README.txt
+
+*/dist
+node_modules

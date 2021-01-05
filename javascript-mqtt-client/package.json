@@ -1,0 +1,30 @@
+{
+  "name": "quick-javascript-mqtt-client",
+  "version": "1.0.0",
+  "description": "this will be only used for learning propurses and SHOULD NOT BE USED IN PRODUCTION",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "test": "test",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "author": "Luis Afonso (@LuuisAfonso)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.16",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.16.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/mqtt": "^2.5.0",
+    "mqtt": "^4.2.6"
+  }
+}
