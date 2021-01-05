@@ -4,6 +4,7 @@
   "description": "this will be only used for learning propurses and SHOULD NOT BE USED IN PRODUCTION",
   "main": "index.js",
   "scripts": {
+    "start": "npm run dev",
     "dev": "nodemon src/server.ts",
     "test": "test",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports"
